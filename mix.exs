@@ -37,7 +37,7 @@ defmodule PhoenixEcto.Mixfile do
 
   defp deps do
     [{:phoenix_html, "~> 2.9", optional: true},
-     {:ecto, "~> 2.1", git: "https://github.com/julienmarie/ecto.git", override: true},
+     {:ecto, "~> 2.1", git: "https://github.com/julienmarie/ecto.git", ref: "b71816d3d164ceb57569cd89ceeec1dffa047385", override: true},
      {:plug, "~> 1.0"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
